@@ -323,15 +323,18 @@ nav {
 .hero-quote-badge {
   position: absolute;
   bottom: 3rem;
-  left: -2.5rem;
+  left: -1rem;
+  right: 1rem;
   background: var(--white);
-  padding: 1.5rem 2rem;
-  max-width: 280px;
+  padding: 1.8rem 2rem;
+  max-width: 320px;
   z-index: 2;
   border-left: 3px solid var(--gold);
   box-shadow: 0 20px 60px rgba(28,26,23,0.12);
   opacity: 0;
   animation: fadeLeft 0.8s 1.2s forwards;
+  word-break: keep-all;
+  overflow: visible;
 }
 
 .hero-quote-text {
@@ -1256,39 +1259,47 @@ footer {
       <div class="why-right reveal">
         <p class="sec-label" data-tr="Neden Innate Human Talent?" data-en="Why Innate Human Talent?">Neden Innate Human Talent?</p>
         <h2 class="sec-title" data-tr="İnsanı Merkeze<br><em>Alan Yaklaşım</em>" data-en="A Human-Centred<br><em>Approach</em>">İnsanı Merkeze<br><em>Alan Yaklaşım</em></h2>
-        <div class="why-pillars">
-          <div class="pillar">
-            <div class="pillar-num">01</div>
-            <div>
-              <div class="pillar-title" data-tr="Uluslararası Perspektif" data-en="International Perspective">Uluslararası Perspektif</div>
-              <p class="pillar-text tr">İngiltere ve Avustralya'daki deneyimimle global bakış açısını yerel gerçeklikle harmanlıyoruz.</p>
-              <p class="pillar-text en" style="display:none">We blend global perspective from UK and Australia with local market realities.</p>
-            </div>
-          </div>
-          <div class="pillar">
-            <div class="pillar-num">02</div>
-            <div>
-              <div class="pillar-title" data-tr="Veri Odaklı Karar Alma" data-en="Data-Driven Decisions">Veri Odaklı Karar Alma</div>
-              <p class="pillar-text tr">Sezginin ötesinde, somut veriler ve kanıta dayalı yöntemlerle süreçleri optimize ederiz.</p>
-              <p class="pillar-text en" style="display:none">We optimise processes beyond intuition, using concrete data and evidence-based methods.</p>
-            </div>
-          </div>
-          <div class="pillar">
-            <div class="pillar-num">03</div>
-            <div>
-              <div class="pillar-title" data-tr="Koçluk Odaklı Liderlik" data-en="Coaching-Led Leadership">Koçluk Odaklı Liderlik</div>
-              <p class="pillar-text tr">Çözüm sunmakla kalmaz, kendi çözümlerini üretebilecek bireyler ve ekipler yaratırız.</p>
-              <p class="pillar-text en" style="display:none">We don't just deliver solutions — we create individuals and teams who generate their own.</p>
-            </div>
-          </div>
-          <div class="pillar">
-            <div class="pillar-num">04</div>
-            <div>
-              <div class="pillar-title" data-tr="Sektörler Arası Deneyim" data-en="Cross-Sector Expertise">Sektörler Arası Deneyim</div>
-              <p class="pillar-text tr">BT, finans, telekom, perakende ve daha fazlasında farklı sektörlerde geniş bir deneyim portföyü.</p>
-              <p class="pillar-text en" style="display:none">Extensive portfolio across IT, finance, telecom, retail, and more — diverse sector expertise.</p>
-            </div>
-          </div>
+
+        <div class="why-story tr" style="margin-top:2rem;">
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;margin-bottom:1.4rem;">
+            15 yıllık profesyonel hayatım boyunca insanı anlamak her zaman en temel motivasyonum oldu. Son 12 yıldır İnsan Kaynakları alanında çalışıyor; işe alım, yetenek kazanımı, çalışan deneyimi, performans yönetimi, organizasyonel gelişim, çalışan bağlılığı ve motivasyonu gibi İK'nın tüm temel fonksiyonlarında kapsamlı bir deneyim biriktiriyorum.
+          </p>
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;margin-bottom:1.4rem;">
+            Kariyerim boyunca birçok farklı sektörde tüm beyaz yaka pozisyonlarıyla çalıştım. Özellikle orta ve üst düzey IT pozisyonları ile idari kadrolarda headhunting süreçlerini aktif olarak yürütüyorum. Zorlu ve kritik pozisyonlarda hızlı, kaliteli ve bütçeye uygun yerleştirmeler yapmak benim için bir hedef değil, bir standarttır.
+          </p>
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;margin-bottom:1.4rem;">
+            Profesyonel yaşamımda İngiltere ve Avustralya'da yaşama ve çalışma fırsatı buldum. Farklı kültürlerle çalışmak bana insanı ve organizasyonları daha geniş bir perspektiften değerlendirme yetkinliği kazandırdı.
+          </p>
+          <blockquote style="border-left:2px solid var(--gold);padding-left:1.5rem;margin:1.8rem 0;font-family:'Playfair Display',serif;font-style:italic;font-size:1.05rem;color:var(--ink);line-height:1.7;">
+            "Her insanın içinde doğuştan gelen bir yetenek bulunur. Ben tam da bu noktada devreye giriyor; insanların öz yeteneklerini keşfetmelerine yardımcı oluyor ve onları gerçekten ait oldukları rol, kurum ve kültürle buluşturuyorum."
+          </blockquote>
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;margin-bottom:1.4rem;">
+            Şirketlerin sürdürülebilir şekilde büyüyememesinin en önemli nedenlerinden birinin yanlış işe alımlar ve yeteneklerin doğru şekilde değerlendirilememesi olduğuna inanıyorum. Bu nedenle yalnızca pozisyon doldurmakla ilgilenmiyor; doğru insanı doğru kurum kültürüyle eşleştirmeyi hedefliyorum.
+          </p>
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;">
+            Varoluş psikolojisine olan ilgim, güçlü sezgilerim ve insanı derinlemesine dinleme becerim, bu işi benim için yalnızca bir meslek olmaktan çıkarıp gerçek bir <strong style="color:var(--gold);font-weight:500;">misyona</strong> dönüştürüyor.
+          </p>
+        </div>
+
+        <div class="why-story en" style="margin-top:2rem;display:none;">
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;margin-bottom:1.4rem;">
+            Throughout my 15-year professional life, understanding people has always been my core motivation. For the past 12 years, I have been working in Human Resources — building deep experience across all key HR functions including recruitment, talent acquisition, employee experience, performance management, organisational development, and employee engagement.
+          </p>
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;margin-bottom:1.4rem;">
+            I have worked across many sectors with all white-collar roles. I actively manage headhunting processes for mid-to-senior IT and administrative positions. Making fast, high-quality, budget-conscious placements for critical roles is not a goal for me — it is a standard.
+          </p>
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;margin-bottom:1.4rem;">
+            I had the opportunity to live and work in the UK and Australia. Working across different cultures gave me the ability to evaluate people and organisations from a broader perspective.
+          </p>
+          <blockquote style="border-left:2px solid var(--gold);padding-left:1.5rem;margin:1.8rem 0;font-family:'Playfair Display',serif;font-style:italic;font-size:1.05rem;color:var(--ink);line-height:1.7;">
+            "Every person carries innate talent within. I step in precisely at this point — helping people discover their core strengths and connecting them with the right role, organisation, and culture."
+          </blockquote>
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;margin-bottom:1.4rem;">
+            I believe one of the main reasons companies fail to grow sustainably is poor hiring decisions and the inability to properly utilise talent. That is why I do not simply fill positions — I aim to match the right person with the right company culture.
+          </p>
+          <p class="pillar-text" style="font-size:0.92rem;line-height:1.9;">
+            My interest in existential psychology, strong intuition, and deep listening skills turn this work from a profession into a genuine <strong style="color:var(--gold);font-weight:500;">mission</strong>.
+          </p>
         </div>
       </div>
     </div>
@@ -1367,7 +1378,7 @@ footer {
               <div class="cl-value">ozgedogan.hr@gmail.com</div>
             </div>
           </a>
-          <a href="https://linkedin.com/in/ozgedogan" target="_blank" class="contact-link">
+          <a href="https://www.linkedin.com/in/%C3%B6zge-do%C4%9Fan-98a07986/" target="_blank" class="contact-link">
             <div class="cl-icon">in</div>
             <div>
               <div class="cl-label">LinkedIn</div>
@@ -1448,9 +1459,8 @@ function setLang(l) {
   document.querySelectorAll('[data-tr]').forEach(el => {
     const val = el.getAttribute('data-' + l);
     if (!val) return;
-    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-      // skip
-    } else if (val.includes('<br>') || val.includes('<em>')) {
+    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') return;
+    if (val.includes('<br>') || val.includes('<em>')) {
       el.innerHTML = val;
     } else {
       el.textContent = val;
@@ -1458,6 +1468,10 @@ function setLang(l) {
   });
   document.querySelectorAll('.tr').forEach(el => el.style.display = l === 'tr' ? '' : 'none');
   document.querySelectorAll('.en').forEach(el => el.style.display = l === 'en' ? '' : 'none');
+  document.querySelectorAll('.why-story').forEach(el => {
+    if (el.classList.contains(l)) el.style.display = '';
+    else el.style.display = 'none';
+  });
 }
 
 // Scroll reveal
